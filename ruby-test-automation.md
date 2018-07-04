@@ -61,12 +61,13 @@ Also:
 
 ## Code analysis
 
-[Contribute to this section](https://github.com/atinfo/awesome-test-automation/blob/master/CONTRIBUTING.md)
+* [Rubocop](https://github.com/bbatsov/rubocop) - A Ruby static code analyzer, based on the community Ruby style guide.
+* [Pronto](https://github.com/prontolabs/pronto) - Quick automated code review of your changes.
 
 ## Test data
 
 * [Fabrication](http://fabricationgem.org/) - A simple and powerful object generation library.
-* [factory_girl](https://github.com/thoughtbot/factory_girl) - A library for setting up Ruby objects as test data.
+* [factory_bot](https://github.com/thoughtbot/factory_bot) - A library for setting up Ruby objects as test data.
 * [Fake Person](https://github.com/adamcooke/fake-person) - Uses some of the most popular given & surnames in the US & UK.
 * [faker](https://github.com/stympy/faker) - A library for generating fake data such as names, addresses, and phone numbers.
 * [ffaker](https://github.com/EmmanuelOga/ffaker) - A faster Faker, generates dummy data, rewrite of faker.
@@ -85,7 +86,7 @@ Also:
     * [PhantomJS](http://phantomjs.org/) - is a headless WebKit scriptable with a JavaScript API. It has fast and native support for various web standards: DOM handling, CSS selector, JSON, Canvas, and SVG.
     * [unobtainium](https://github.com/jfinkhaeuser/unobtainium) - configuration driven wrapper for Selenium WebDriver and [appium](http://appium.io/), with PhantomJS support.
 - frameworks
-    * [Capybara](http://jnicklas.github.io/capybara) - Acceptance test framework for web applications.
+    * [Capybara](https://github.com/teamcapybara/capybara) - Acceptance test framework for web applications.
     * [Konacha](https://github.com/jfirebaugh/konacha) - Test your Rails application's JavaScript with the mocha test framework and chai assertion library.
     * [chemistrykit](https://github.com/chemistrykit/chemistrykit) - Simple and opinionated web testing framework for Selenium WebDriver that follows convention over configuration and integrates with SauceLabs for cross-browser execution in the cloud.
     * [howitzer](https://github.com/strongqa/howitzer) - is a Ruby-based framework for acceptance testing. It was originally developed for testing web applications, but you can also use it for API testing and web service testing.The framework was built with modern patterns, techniques, and tools in automated testing.
@@ -93,8 +94,10 @@ Also:
     * [page-object](https://github.com/cheezy/page-object) - Gem to implement PageObject pattern in watir-webdriver and selenium-webdriver.
     * [watirsome](https://github.com/p0deje/watirsome) - Awesome page objects with Watir.
     * [widgeon](https://github.com/yashaka/widgeon) - Yet another 'page objects for Capybara' gem with ability to create custom loadable elements akka 'widgets'
+    * [Site Prism](https://github.com/natritmeyer/site_prism) - A Page Object Model DSL for Capybara
 - extensions
     * [Selenium-Grid-Extras](https://github.com/groupon/Selenium-Grid-Extras) - Simplify the managment of the Selenium Grid Nodes and stabilize said nodes by cleaning up the test environment after the build has been completed
+    * [Mailosaur](https://github.com/mailosaur/mailosaur-ruby) - Ruby client for email testing/automation via Mailosaur.
 
 ## Mobile test automation
 
@@ -115,7 +118,8 @@ Also:
 ## Virtual environments
 
 * [RVM](https://rvm.io/) - Ruby Version Manager (RVM) is a unix command-line tool which allows you to easily install, manage, and work with multiple ruby environments from interpreters to sets of gems.
-* [Pik](http://rubyinstaller.org/add-ons/pik/) - Multi-Ruby Manager for Windows
+* [Pik](http://rubyinstaller.org/add-ons/pik/) - Multi-Ruby Manager for Windows.
+* [rbenv](http://rbenv.org/) - Use rbenv to pick a Ruby version for your application and guarantee that your development environment matches production.
 
 ## Performance & stress & load
 
@@ -123,15 +127,16 @@ Also:
 
 ## Security checking
 
-[Contribute to this section](https://github.com/atinfo/awesome-test-automation/blob/master/CONTRIBUTING.md)
+* [Brakeman](https://brakemanscanner.org/) - Static analysis security scanner for Ruby on Rails.
+* [bundle-audit](https://github.com/rubysec/bundler-audit) - Patch-level verification for bundler. Checks for vulnerable gems.
 
 ## Continuous Integration
 
-[Contribute to this section](https://github.com/atinfo/awesome-test-automation/blob/master/CONTRIBUTING.md)
+* [Knapsack](https://github.com/ArturT/knapsack) - Optimal test suite parallelisation across CI nodes for RSpec, Cucumber, Minitest, Spinach and Turnip.
 
 ## Reporting
 
-[Contribute to this section](https://github.com/atinfo/awesome-test-automation/blob/master/CONTRIBUTING.md)
+* [ReportPortal.io](http://ReportPortal.io) - [Ruby Cucumber + RSpec](https://github.com/reportportal?utf8=✓&q=agent-ruby&type=&language=) powerfull results management and analytics for test automation reports. Powered with Machine Learning. Real-time integration and reports, visualization of trends and statistics, custom dashboards and widgets, gives you real visibility into the state of test automation. Integral part of CI/CD with TA and Continous Testing. Server-client application, can be used for any type of automated tests. Free and OpenSourced, [GitHub link](https://github.com/reportportal).
 
 ## Documentation generation
 
@@ -158,13 +163,14 @@ Where to discover new libraries, information, tools, etc.
 
 # Other Awesome Test Automation Lists
 
-* [python test automation](https://github.com/atinfo/awesome-test-automation/blob/master/python-test-automation.md)
-* [java test automation](https://github.com/atinfo/awesome-test-automation/blob/master/java-test-automation.md)
-* [ruby test automation](https://github.com/atinfo/awesome-test-automation/blob/master/ruby-test-automation.md)
-* [c# test automation](https://github.com/atinfo/awesome-test-automation/blob/master/c%23-test-automation.md)
-* [php test automation](https://github.com/atinfo/awesome-test-automation/blob/master/php-test-automation.md)
-* [javascript test automation](https://github.com/atinfo/awesome-test-automation/blob/master/javascript-test-automation.md)
-* [test automation and software testing as services](https://github.com/atinfo/awesome-test-automation/blob/master/automation-and-testing-as-service.md)
+* [python test automation](https://github.com/atinfo/awesome-test-automation/blob/master/python-test-automation.md) 
+* [java test automation](https://github.com/atinfo/awesome-test-automation/blob/master/java-test-automation.md) 
+* [ruby test automation](https://github.com/atinfo/awesome-test-automation/blob/master/ruby-test-automation.md) 
+* [c# test automation](https://github.com/atinfo/awesome-test-automation/blob/master/c%23-test-automation.md) 
+* [php test automation](https://github.com/atinfo/awesome-test-automation/blob/master/php-test-automation.md) 
+* [javascript test automation](https://github.com/atinfo/awesome-test-automation/blob/master/javascript-test-automation.md) 
+* [kotlin test automation](https://github.com/atinfo/awesome-test-automation/blob/master/kotlin-test-automation.md) 
+* [test automation and software testing as services](https://github.com/atinfo/awesome-test-automation/blob/master/automation-and-testing-as-service.md) 
 * [mobile, tablet and tv test automation](https://github.com/atinfo/awesome-test-automation/blob/master/mobile-test-automation.md)
 * [general purpose test automation tools](https://github.com/atinfo/awesome-test-automation/blob/master/general-purpose-test-automation-tools.md)
 
